@@ -1,0 +1,67 @@
+body{
+  background-color: #E6E6E6;
+}
+
+#espacioCanchaTenis{
+  position:relative;
+  background: #81F7BE;
+  border: solid #FFFFFF;
+  top: px;
+  left: 5px;
+  width: 800px;
+  height: 400px;
+}
+
+#cuadroIzquierdoTenis{
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 0;
+  width: 180px;
+  height: 290px;
+  border: solid #FFFFFF;
+}
+
+#lineaCentroTenis{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 403px;
+  border-left: solid #FFFFFF;
+  width:1px;
+  height:400px;
+}
+
+#lineaArribaTenis{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 0px;
+  border-left: solid #FFFFFF;
+  width:800px;
+  height:1px;
+}
+
+#cuadroDerechoTenis{
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 617px;
+  width: 180px;
+  height: 290px;
+  border: solid #FFFFFF;
+}
+
+#cuadroArribaTenis{
+  position:absolute;
+  margin-top: 50px;
+  margin-left: 183px;
+  width: 431px;
+  height: 145px;
+  border: solid #FFFFFF;
+}
+
+#cuadroAbajoTenis{
+  position:absolute;
+  margin-top: 198px;
+  margin-left: 183px;
+  width: 431px;
+  height: 145px;
+  border: solid #FFFFFF;
+}

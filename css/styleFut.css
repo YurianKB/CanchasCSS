@@ -1,0 +1,85 @@
+body{
+  background-color: #E6E6E6;
+}
+
+#espacioCancha{
+  position:relative;
+  background: #088A08;
+  border: solid #FFFFFF;
+  top: px;
+  left: 5px;
+  width: 800px;
+  height: 400px;
+}
+
+#cuadroIzquierdo{
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 0;
+  width: 100px;
+  height: 200px;
+  border: solid #FFFFFF;
+}
+
+#circuloIzquierdo {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 104px;
+  width: 50px;
+  height: 100px;
+  border: solid #FFFFFF;
+ -moz-border-radius: 0 100px 100px 0;
+ -webkit-border-radius: 0 100px 100px 0;
+  border-radius: 0 100px 100px 0;
+}
+
+#lineaCentroArriba{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 403px;
+  border-left: solid #FFFFFF;
+  width:1px;
+  height:153px;
+}
+
+#lineaCentroAbajo{
+  position: absolute;
+  margin-top: 253px;
+  margin-left: 403px;
+  border-left: solid #FFFFFF;
+  width:1px;
+  height:150px;
+}
+
+#circuloCentro{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #088A08;
+  border: solid #FFFFFF;
+}
+
+#cuadroDerecho{
+  position:absolute;
+  margin-top: 100px;
+  margin-left: 697px;
+  width: 100px;
+  height: 200px;
+  border: solid #FFFFFF;
+}
+
+#circuloDerecho{
+ position:absolute;
+ margin-top: 150px;
+ margin-left: 643px;
+ width: 50px;
+ height: 100px;
+ border: solid #FFFFFF;
+ -moz-border-radius:  100px 0 0 100px ;
+ -webkit-border-radius:  100px 0 0 100px;
+}

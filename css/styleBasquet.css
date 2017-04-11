@@ -1,0 +1,93 @@
+body{
+  background-color: #E6E6E6;
+}
+
+#espacioCanchaBasquet{
+  position:relative;
+  background: #C96101;
+  border: solid #FFFFFF;
+  top: px;
+  left: 5px;
+  width: 800px;
+  height: 400px;
+}
+
+#medioCirculoIzquierdoBasquet {
+  position: absolute;
+  margin-top: 46px;
+  margin-left: 0px;
+  width: 200px;
+  height: 300px;
+  border: solid #FFFFFF;
+ -moz-border-radius: 0 300px 300px 0;
+ -webkit-border-radius: 0 300px 300px 0;
+  border-radius: 0 300px 300px 0;
+}
+
+#circuloIzquierdoBasquet{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 99px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #C96101;
+  border: solid #FFFFFF;
+}
+
+#lineaCentroArribaBasquet{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 403px;
+  border-left: solid #FFFFFF;
+  width:1px;
+  height:153px;
+}
+
+#lineaCentroAbajoBasquet{
+  position: absolute;
+  margin-top: 253px;
+  margin-left: 403px;
+  border-left: solid #FFFFFF;
+  width:1px;
+  height:150px;
+}
+
+#circuloCentroBasquet{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 350px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #C96101;
+  border: solid #FFFFFF;
+}
+
+#circuloDerechoBasquet{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 598px;
+  width: 100px;
+  height: 100px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius 50%;
+  background: #C96101;
+  border: solid #FFFFFF;
+}
+
+#medioCirculoDerechoBasquet{
+ position:absolute;
+ margin-top: 46px;
+ margin-left: 597px;
+ width: 200px;
+ height: 300px;
+ border: solid #FFFFFF;
+ -moz-border-radius:  300px 0 0 300px ;
+ -webkit-border-radius:  300px 0 0 300px;
+}
